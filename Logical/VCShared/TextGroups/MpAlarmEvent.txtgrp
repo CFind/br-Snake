@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpAlarmEvent">
+  <Property Name="Description" Value="Texts for the event of an alarm - index  0-1 long, index 10-11 short"/>
+  <Property Name="Index" Value="1151"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="209566" Value="Triggered"/>
+    <Text ID="209567" Value="Reset"/>
+    <Text ID="209568" Value="Bypassed"/>
+    <Text ID="209569" Value="Not Bypassed"/>
+    <Text ID="209570" Value="Reset Acknowledged"/>
+    <Text ID="209571" Value="Achnowledged Reset"/>
+    <Text ID="209572" Value="T"/>
+    <Text ID="209573" Value="R"/>
+    <Text ID="209574" Value="B"/>
+    <Text ID="209575" Value="nB"/>
+    <Text ID="209576" Value="RA"/>
+    <Text ID="209577" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="209566" Value="Gekommen"/>
+    <Text ID="209567" Value="Gegangen"/>
+    <Text ID="209568" Value="Gebrückt"/>
+    <Text ID="209569" Value="Entbrückt"/>
+    <Text ID="209570" Value="Resetiert Quittiert"/>
+    <Text ID="209571" Value="Quittiert Resetiert"/>
+    <Text ID="209572" Value="T"/>
+    <Text ID="209573" Value="R"/>
+    <Text ID="209574" Value="B"/>
+    <Text ID="209575" Value="nB"/>
+    <Text ID="209576" Value="RA"/>
+    <Text ID="209577" Value="AR"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="209566" Value="0"/>
+    <Index ID="209567" Value="1"/>
+    <Index ID="209568" Value="2"/>
+    <Index ID="209569" Value="3"/>
+    <Index ID="209570" Value="4"/>
+    <Index ID="209571" Value="5"/>
+    <Index ID="209572" Value="10"/>
+    <Index ID="209573" Value="11"/>
+    <Index ID="209574" Value="12"/>
+    <Index ID="209575" Value="13"/>
+    <Index ID="209576" Value="14"/>
+    <Index ID="209577" Value="15"/>
+  </IndexMap>
+</TextGroup>

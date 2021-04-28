@@ -1,0 +1,5 @@
+VAR
+	gVisHandle : UDINT;
+	gCurrentPage : USINT;
+	gChangeToPage : USINT;
+END_VAR

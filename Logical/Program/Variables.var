@@ -1,0 +1,49 @@
+VAR
+	drawboxW : UINT;
+	drawboxH : UINT;
+END_VAR
+VAR CONSTANT
+	REFRESH_MS : UDINT := 175;
+END_VAR
+VAR
+	prevDirection : Direction;
+	timeToDraw : BOOL;
+	lastDrawTime : UDINT;
+	quitButton : BOOL;
+	elapsedTime : UINT;
+	foodSquare : Food;
+	startButton : BOOL;
+	startTime : UINT;
+END_VAR
+VAR CONSTANT
+	ORIG_XY : UINT := 10;
+	BLOCK_SIZE : USINT := 20;
+	BLOCK_W : USINT := 20;
+END_VAR
+VAR
+	gameStarted : BOOL;
+	currDirection : Direction;
+	snakeSize : UINT;
+	init : BOOL;
+	drawboxYLim : UINT;
+	drawboxXLim : UINT;
+END_VAR
+VAR CONSTANT
+	X_LIM : UINT := 330;
+END_VAR
+VAR
+	previousY : INT;
+	previousX : INT;
+END_VAR
+VAR CONSTANT
+	Y_LIM : UINT := 330;
+END_VAR
+VAR
+	gameOver : BOOL;
+	lockRight : BOOL;
+	lockLeft : BOOL;
+	lockDown : BOOL;
+	lockUp : BOOL;
+	snakeArray : ARRAY[0..90] OF snakeNode;
+	gHTML_Link : Html_typ;
+END_VAR
